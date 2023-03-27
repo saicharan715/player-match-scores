@@ -1,1 +1,10 @@
 GET http://localhost:3000/players/
+
+###
+
+PUT http://localhost:3000/player_details/2
+Content-Type: application/json
+
+{
+    "playerName": "Raju"
+}

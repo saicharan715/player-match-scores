@@ -68,7 +68,7 @@ app.put("/players/:playerId/", async (request, response) => {
   const { playerName } = playerDetails;
 
   const updatePlayer = `
-    UPDATE playerName
+    UPDATE player_details
     SET 
     player_name = '${playerName}'
     WHERE player_id = ${playerId};`;
